@@ -3,7 +3,7 @@
  * @version 1.0.0
  */
 try {
-	(function(isNaN) {
+	(function() {
 		'use strict';
 		
 		/**
@@ -15,7 +15,7 @@ try {
 		window.isNaN2 = function(value) {
 			return typeof value === 'number' && isNaN(value);
 		};
-	})(window.isNaN);
+	})();
 }catch(e) {
 	console.error(e);
 }
