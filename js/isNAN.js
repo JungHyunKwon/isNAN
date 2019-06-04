@@ -7,13 +7,13 @@ try {
 		'use strict';
 		
 		/**
-		 * @name isNan
+		 * @name isNAN
 		 * @since 2017-12-06
 		 * @param {*} value
 		 * @return {boolean}
 		 */
-		window.isNan = function(value) {
-			return typeof value === 'number' && isNan(value);
+		window.isNAN = function(value) {
+			return typeof value === 'number' && isNAN(value);
 		};
 	})();
 }catch(e) {
