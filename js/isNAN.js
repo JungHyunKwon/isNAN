@@ -13,7 +13,7 @@ try {
 		 * @return {boolean}
 		 */
 		window.isNAN = function(value) {
-			return typeof value === 'number' && isNAN(value);
+			return typeof value === 'number' && isNaN(value);
 		};
 	})();
 }catch(e) {
